@@ -638,7 +638,7 @@ height:650px;
   padding: 20px;
 width: 579.19px;
 height: 398px;
-overflow-x: 100px;
+overflow-x: scroll;
 
 }
 .newcard:hover .img{
