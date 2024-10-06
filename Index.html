@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
+
   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   <title>ExcellentRockSchool.com</title>
   </head>
   <body>
+    <div class="scroll"></div>
     <div class="header">
       <div class="right">
       <div class="call">
@@ -25,6 +27,7 @@
       </div>
     <div class="Email">
       E-mail us @
+
       <br/>
       ExcellentRockSchool@gmail.com
     </div>
@@ -41,7 +44,7 @@
     <ul class="laptop">
       <li><a href="#">Home</a></li>
       <li><a href="#">Admission</a></li>
-      <li><a href="#">About Ers</a></li>
+      <li><a href="about.html">About Ers</a></li>
       <li><a href="#">News/updatws</a></li>
       <li><a href="#">Curriculum</a></li>
       <li><a href="#">Discover</a></li>
@@ -55,7 +58,7 @@
              <button class="cancel" onclick="hide()">&#10005;</button>
     <li><a href="#">Home</a></li>
       <li><a href="#">Admission</a></li>
-      <li><a href="#">About Ers</a></li>
+      <li><a href="about.html">About Ers</a></li>
       <li><a href="#">News/updatws</a></li>
       <li><a href="#">Curriculum</a></li>
             <li><a href="#">Discover</a></li>
@@ -65,10 +68,10 @@
     </ul>
     <button class="ham" onclick="show()">&#9776;</button>
   </nav>
-  <!-- <section class="hero__cont">
+  <section class="hero__cont">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide object">
           <img src="https://i.ibb.co/qpxbVRK/IMG-0141.jpg"/>
         </div>
         <div class="swiper-slide"><img src="https://i.ibb.co/qB4X4yb/New-folder-15.jpg"/></div>
@@ -81,7 +84,7 @@
 
       <div class="swiper-pagination"></div>
     </div>
-  </section> -->
+  </section>
   <!-- end of hero__cont -->
 
 
@@ -98,64 +101,386 @@
 </P>
 
 <div class="buttons">
-  <button class="btn1 radius">About us &#8594;</button>
-  <button class="btn1 radius">management messages &#8594</button>
+  <button class="btn1 radius" ><a href="about.html">About us &#8594;</a></button>
+  <button class="btn1 radius"><a href="message.html">management messages &#8594;</a></button>
 </div>
 </div>
 <div class="left__welcome">
   <div class="left__image__welcome">
-<img src="about achievements.png" alt="">
+<img src="images/about achievements.png" alt="">
   </div>
 </div>
   </section>
-  <section class="available">
-    <div class="background"></div>
-      <div class="container availability">
-        <div class="available__text">
-          <h1> SCHOOL FOR VISION KNOWLEDGE & WISDOM</h1>
-       <P>We focus on dynamic education, holistic development,and building a <br/>brighter future for your child and our nation</P>
+     <section class="available">
+        <div class="container availability">
+          <div class="available__text">
+            <h1> SCHOOL FOR VISION KNOWLEDGE & WISDOM</h1>
+         <P>We focus on dynamic education, holistic development,and building a brighter future for your child and our nation</P>
+        </div>
+        <div class="cards">
+      <div class="card">
+        <div class="card__icon " style="color:#db3530;">
+          <i class="fa fa-scro" aria-hidden="true"></i>
+        </div>
+        <div class="card__info">
+          <h1>Holistic Education</h1>
+          <p>We nurture the whole child, focusing on academics, character, and spirituality.
+          </p>
+        </div>
       </div>
-      <div class="cards">
-    <div class="card">
-      <div class="card__icon " style="color:#db3530;">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+      <div class="card">
+        <div class="card__icon icons" style="background-color:#fff; color:#540290;">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        </div>
+        <div class="card__info">
+          <h1>Future-Ready</h1>
+          <p>Our curriculum equips students for success in higher education and beyond.
+          </p>
+        </div>
       </div>
-      <div class="card__info">
-        <h1>Holistic Education</h1>
-        <p>We nurture the whole child, focusing on academics, character, and spirituality.
-        </p>
+      <div class="card">
+        <div class="card__icon">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </div>
+        <div class="card__info">
+          <h1>
+Safe Haven</h1>
+          <p>It's not just a school; it's a home away from home.</p>
+          </p>
+        </div>
+      </div>
+        </div>
+        <div class="learn-more">
+          <button class="more">Learn More About Admission At ERS</button>
+      </div>
+      </div>
+    </section> 
+  
+
+
+  <div class="discovery">
+    <div class="discover container">
+      <div class="discovertext">
+        <h1>DISCOVER ERS</h1>
+        <p>learn more about us, our curiculuum, projects, and innovative educational approaches </p>
+        </div>
+      <div class="cards dis">
+  <div class="disc">
+    <div class="discimage">
+      <img src="images/about achievements.png"/>
+    </div>
+    <div class="discinfo">
+      <h2>Get To Know Us</h2>
+      <p>ERS is a mission co-educational day school committed to providing an all-round and qualitative education </p>
+      <button class="radius btn scale">learn more</button>
+    </div>
+  </div>
+  <div class="disc">
+    <div class="discimage">
+      <img src="images/about achievements.png"/>
+    </div>
+    <div class="discinfo">
+      <h2 id="blue">Get To Know Us</h2>
+      <p>ERS is a mission co-educational day school committed to providing an all-round and qualitative education </p>
+      <button class="radius btn color">learn more</button>
+    </div>
+  </div>
+  <div class="disc">
+    <div class="discimage">
+      <img src="images/about achievements.png"/>
+    </div>
+    <div class="discinfo">
+      <h2 id="purple">Get To Know Us</h2>
+      <p>ERS is a mission co-educational day school committed to providing an all-round and qualitative education </p>
+      <button class="radius btn color">learn more</button>
+    </div>
+  </div>
+ </div>
+  </div>
+  </div>
+
+  <section class="highscore">
+  <div class="high">
+    <div class="box">
+<div class="swipers mySwiperr sweep">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="images/Highflyer.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/Picsart_24-09-25_06-13-31-727.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/Picsart_24-09-29_01-11-59-486.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/Picsart_24-09-29_01-13-21-228.png" />
       </div>
     </div>
-    <div class="card">
-      <div class="card__icon icons" style="background-color:#fff; color:#540290;">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-      </div>
-      <div class="card__info">
-        <h1>Holistic Education</h1>
-        <p>We nurture the whole child, focusing on academics, character, and spirituality.
-        </p>
-      </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+  
+    
+    <div class="hightext">
+    <p class="orange">CELEBRATING EXCELLENCE:</p>
+    <h2>Meet THE STARS</h2>
+    <h3><span class="colors">E R S</span> High Flyers</h3>
+    <p  class="dn">ERS takes pride in its high flyers, students who have excelled remarkably in external and international examinations. With a rigorous academic curriculum, dedicated staff, and a supportive learning environment, our students achieve extraordinary success, setting new benchmarks for excellence and making us proud as a leading educational institution.</p>
+    <br/>
+    <button class="th radius .btn1"><a href="stars.html">Learn More</a></button>
     </div>
-    <div class="card">
-      <div class="card__icon">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-      </div>
-      <div class="card__info">
-        <h1>Holistic Education</h1>
-        <p>We nurture the whole child, focusing on academics, character, and spirituality.
-        </p>
-      </div>
-    </div>
-      </div>
-      <div class="learn-more">
-        <button class="more">Learn More About Admission At ERS</button>
-    </div>
-    </div>
+  </div>
   </section>
 
 
-
   
+  <section class="news">
+    <div class="head container">
+      <h1>ERS News & Updates</h1>
+      <button class="color btn radius">view more</button>
+    </div>
+
+    <div class="new">
+      <div class="newcard">
+        
+       <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+ <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>Every year In Excellent Rock School we conduct election for the post of prefectship and it will be holding again this year</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+    <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+      <div class="newcard">
+        
+        <div class="img"></div>
+        <div class="newcardtext">
+<a href="#">
+  <h3>welcome to excellent rock (ERS) official website welcome! welcome! welcome! welcome! welcome! welcome! welcome!</h3>
+</a>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="popular">
+    <div class="pop container">
+      <div class="head container populars">
+        <h1>popular links</h1>
+      </div>
+      <div class="cardss">
+      <div class="card3">
+        <a href="management.html">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2>Management Team</h2>
+      </a>
+        </div>
+      </div>
+      <div class="card3">
+        <a href="#">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2>Student Experience</h2>
+      </a>
+        </div>
+      </div>
+      <div class="card3">
+        <a href="curicullar.html">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2>Co-curricular Activities</h2>
+      </a>
+        </div>
+      </div>
+      <div class="card3">
+        <a href="#">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2>Students Fellowship</h2>
+      </a>
+        </div>
+      </div>
+      <div class="card3">
+        <a href="#">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2>Students Exams </h2>
+      </a>
+        </div>
+      </div>
+      <div class="card3">
+      <a href="#">
+        <div class="imgs"></div>
+        <div class="card3text">
+      <h2> Students Digital workshop</h2>
+      </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section class="test">
+    <div class="tests container">
+      <h2>TESTIMONIALS</h2>
+   <div class="body">
+     <h3>Hear what our Parents
+       <!-- Current StudentsAlumni  -->
+      have to say about DLHS</h3>
+      <div class="display">
+      </div>
+    </div>
+    <div class="btn  radius">view more testimonials</div>
+   </div>
+  </section>
+  <section class="admit">
+    <div class="admits container">
+             <div class="admitcard">
+          <div class="card1">
+            <h1>First Supplementary Admission Ongoing</h1>
+          <p>Applications are invited from suitably qualified candidates for admission into all classes  for 2024/2025 Academic Session. Application forms are available online.<p>
+          <h3 style="color: black; text-align: left;">Entrance Date: Saturday  18th May, 2024</h3>
+        </div>
+          <div class="card2">
+            <button class="check">
+              APPLY NOW
+            </button>
+          </div>
+        </div>
+    
+    </div>
+    <hr class="blue_line"/>
+    <section class="footer">
+        <div class="container">
+        <div class="small footer-u">
+          <img src="images/Logo.png"/>
+        </div>
+        <br/>
+        <h1 style="text-align: center; color: #fff; font-size: 21px;">Excellent Rock School</h1>
+      </div>
+    </section>
+    <hr class="not" size="4">
+    <br/>
+    <br/>
+    <br/>
+    <div class="hn">
+      <div class="hnn">
+        <div class="hnn_head">
+          <h1>Discover</h1>
+        </div>
+<p>About ERS &nbsp; &#8599;</p>
+<p>Management &nbsp; &#8599;</p>
+<p>Management Messages &nbsp; &#8599;</p>
+<p>High Flyers &nbsp; &#8599;</p>
+<p>ERS Campuses &nbsp; &#8599;</p>
+
+      </div>
+      <div class="hnn">
+        <div class="hnn_head">
+          <h1>Quick Links</h1>
+        </div>
+    
+    <p>Our Facilities &nbsp; &#8599;</p>
+    <p>Testimonial &nbsp; &#8599;</p>
+    <p>Media Gallery &nbsp; &#8599;</p>
+    <p>Alumni &nbsp; &#8599;</p>
+    <p>Our Curriculum &nbsp; &#8599;</p>
+      </div>
+      <div class="hnn">
+        <div class="hnn_head">
+          <h1>Admissions</h1> 
+        </div>
+    
+    <p>Admission Advert &nbsp; &#8599;</p>
+    <p>Admission Process &nbsp; &#8599;</p>
+    <p>Admission Form &nbsp; &#8599;</p>
+
+      </div>
+      <div class="hnn">
+        <div class="hnn_head">
+          <h1>Discover</h1>
+        </div>
+    
+    <p>Contact us &nbsp; &#8599;</p>
+    <p>Newsletter &nbsp; &#8599;</p>
+    <p>Social Media Connect &nbsp; &#8599;</p>
+      </div>
+    </div>
+    <br/>
+    <hr style="border-bottom: none; width: 95%; margin-inline: auto;"/>
+  <h3>&copy copyright Excellent Rock School, Ers</h3>
+  <br/>
+  <br/>
+  <br/>
+  <p style="text-align: right; margin-right: 5%; font-size:20px;"><a href="#" style="color: #fff; ">Back to Top</a></p>
+  </section>
+
+
       <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script>
@@ -163,7 +488,7 @@
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 1000,
         disableOnInteraction: false,
       },
       pagination: {
@@ -175,7 +500,30 @@
         prevEl: ".swiper-button-prev",
       },
     });
+
+
+
+
+
+    var swiper = new Swiper(".mySwiperr", {
+
+      effect: "cube",
+      autoplay: {
+        delay: 2800,
+        disableOnInteraction: false,
+      },
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 10,
+        shadowScale:1,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
   </script>
 
-  </body>
-  </html>
+</body>
+</html>
