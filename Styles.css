@@ -1099,6 +1099,8 @@ word-spacing:5px;
     border-radius: 10px 10px 10vw 10px;
   }
 }
+
+
 @media  (max-width:384px) {
   .right__welcome h1{
     font-size: 30px;
